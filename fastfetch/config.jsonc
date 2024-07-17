@@ -1,0 +1,141 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "width": 28,
+        "height": 8,
+        "color": {
+            "1": "cyan" 
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "type": "host",
+            "key": "╭─󰌢",
+            "keyColor": "blue"
+        },
+        {
+            "type": "cpu",
+            "key": "├─󰻠",
+            "keyColor": "blue"
+        },
+        {
+            "type": "gpu",
+            "key": "├─󰍛",
+            "keyColor": "blue"
+        },
+        {
+            "type": "disk",
+            "key": "├─",
+            "keyColor": "blue"
+        },
+        {
+            "type": "memory",
+            "key": "├─󰑭",
+            "keyColor": "blue"
+        },
+        {
+            "type": "display",
+            "key": "├─󰍹",
+            "keyColor": "blue"
+        },
+        {
+            "type": "brightness",
+            "key": "├─󰃞",
+            "keyColor": "blue"
+        },
+        {
+            "type": "battery",
+            "key": "├─",
+            "keyColor": "blue"
+        },
+        {
+            "type": "poweradapter",
+            "key": "├─",
+            "keyColor": "blue"
+        },
+        {
+            "type": "sound",
+            "key": "╰─",
+            "keyColor": "blue"
+        },
+        {
+            "type": "shell",
+            "key": "╭─",
+            "keyColor": "blue"
+        },
+        {
+            "type": "terminalfont",
+            "key": "├─",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wallpaper",
+            "key": "╰─󰸉",
+            "keyColor": "blue"
+        },
+
+        "break",
+        {
+            "type": "title",
+            "key": "╭─",
+            "format": "{1}@{2}",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "os",
+            "key": "├─",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "kernel",
+            "key": "├─",
+            "format": "{1} {2}",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "packages",
+            "key": "├─󰏖",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "uptime",
+            "key": "├─󰅐",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "media",
+            "key": "├─󰝚",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "localip",
+            "key": "├─󰩟",
+            "compact": true,
+            "keyColor": "cyan"
+        },
+        {
+            "type": "publicip",
+            "key": "├─󰩠",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "wifi",
+            "key": "├─",
+            "format": "{4}", // ssid
+            "keyColor": "cyan"
+        },
+        {
+            "type": "locale",
+            "key": "╰─",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+    ]
+}

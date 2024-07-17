@@ -1,0 +1,30 @@
+
+# General Aliases
+alias ll='ls -alF'
+alias la='ls -al'
+alias l='ls -CF'
+
+# Grep Aliases
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Brian's Aliases
+alias python='python3'
+alias vim='nvim'
+alias vi='vim'
+alias home="cd ~"
+alias cls="clear"
+
+# Git Aliases
+alias gc='git commit -m'
+alias ga='git add .'
+alias gpush='git push'
+alias gst='git status'
+
+# Tmux Aliases
+alias tnew='tmux new-sesssion -s'
+alias ta='tmux a'
+alias tls='tmux ls'
+alias tkill='tmux kill-session -t'
+
